@@ -1,0 +1,30 @@
+{
+  "name": "DELZ OSINT",
+  "short_name": "DELZ OSINT",
+  "description": "DELZ OSINT V6 - Cek Jejak Digital, Email Bocor, Password, Nomer HP, Domain, Link Phising",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F6F7FB",
+  "theme_color": "#0F172A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
