@@ -70,7 +70,7 @@ th,td{border-bottom:1px solid #F1F5F9;padding:10px 8px;text-align:left;vertical-
 </style>
 </head>
 <body>
-<div class="topbar"><div class="logo"><div class="logo-icon"><img src="icon.jpg" alt="DELZ"></div><div><b>DELZ OSINT</b><br><small>CEK JEJAK DIGITAL • V6 PWA</small></div></div><button class="pill-top" onclick="showPage('home',null)">Menu ▾</button></div>
+<div class="topbar"><div class="logo"><div class="logo-icon"><img src="icon1.jpg" alt="DELZ"></div><div><b>DELZ OSINT</b><br><small>CEK JEJAK DIGITAL • V6 PWA</small></div></div><button class="pill-top" onclick="showPage('home',null)">Menu ▾</button></div>
 <div class="menu">
 <button class="active" onclick="showPage('home',this)">Home</button>
 <button onclick="showPage('p1',this)">1. Pass Gen</button>
@@ -95,12 +95,12 @@ th,td{border-bottom:1px solid #F1F5F9;padding:10px 8px;text-align:left;vertical-
 
 <div id="home" class="page active">
 <!-- BANNER INSTALL PWA - MUNCUL KALO BISA DI-INSTALL -->
-<div class="install-banner" id="installBanner"><div style="display:flex;gap:10px;align-items:center"><img src="icon.jpg" alt="icon"><div><b style="font-size:14px">Install DELZ OSINT</b><div style="font-size:11px;opacity:.8">Jadi APK, buka kayak aplikasi beneran</div></div></div><button onclick="installPWA()" style="background:#fff;color:#0F172A;border:none;padding:8px 12px;border-radius:999px;font-weight:800;font-size:12px;cursor:pointer;flex-shrink:0">Install</button></div>
+<div class="install-banner" id="installBanner"><div style="display:flex;gap:10px;align-items:center"><img src="icon1.jpg" alt="icon"><div><b style="font-size:14px">Install DELZ OSINT</b><div style="font-size:11px;opacity:.8">Jadi APK, buka kayak aplikasi beneran</div></div></div><button onclick="installPWA()" style="background:#fff;color:#0F172A;border:none;padding:8px 12px;border-radius:999px;font-weight:800;font-size:12px;cursor:pointer;flex-shrink:0">Install</button></div>
 <h1>Bikin cek<br><span>yang gak pasaran.</span></h1>
 <p class="sub">V6 PWA - Udah bisa di-install jadi APK. Semua funct pake proxy fallback, gak ada lagi hasil kosong.</p>
 <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px"><span class="badge"><span class="dot"></span> API Aktif + Proxy Fallback</span><span class="badge">Gratis • Tanpa Login</span><span class="badge">Bisa Jadi APK</span></div>
 <div class="warn">Hanya cek milik lu sendiri. Kalau ada hasil CEK MANUAL, klik Buka → di tabel, itu tetap data real dari situs aslinya.</div>
-<div class="card"><h3>Apa yang dibenerin di V6 PWA?</h3><p class="small">1. Manifest + icon.jpg udah ditanem di index.html<br>2. Logo atas udah pake icon.jpg, bukan huruf D doang<br>3. Ada banner Install PWA di Home<br>4. Semua funct pake fetchSmart (langsung + proxy), gak ada hasil kosong<br>5. Button menu udah dibenerin, gak kepotong lagi</p><table><tr><th>NO</th><th>FUNCT</th><th>STATUS</th></tr>
+<div class="card"><h3>Apa yang dibenerin di V6 PWA?</h3><p class="small">1. Manifest + icon1.jpg udah ditanem di index.html<br>2. Logo atas udah pake icon1.jpg, bukan huruf D doang<br>3. Ada banner Install PWA di Home<br>4. Semua funct pake fetchSmart (langsung + proxy), gak ada hasil kosong<br>5. Button menu udah dibenerin, gak kepotong lagi</p><table><tr><th>NO</th><th>FUNCT</th><th>STATUS</th></tr>
 <tr><td>1</td><td>Generate Password + HIBP</td><td>REAL</td></tr><tr><td>2</td><td>Cek Domain</td><td>REAL - RDAP via Proxy</td></tr><tr><td>3</td><td>Cek Link Phising</td><td>REAL</td></tr><tr><td>4</td><td>Breach Analytics</td><td>REAL - XposedOrNot</td></tr><tr><td>5</td><td>Cek Nomer HP</td><td>REAL - Prefix + WA</td></tr><tr><td>6</td><td>Decode / Hash</td><td>REAL - Di HP</td></tr><tr><td>7</td><td>Export</td><td>REAL - data.txt</td></tr><tr><td>8</td><td>History</td><td>REAL - localStorage</td></tr><tr><td>9</td><td>Username Massal 8 Platform</td><td>REAL - TT IG YT</td></tr><tr><td>10</td><td>SSL</td><td>REAL - crt.sh</td></tr><tr><td>11</td><td>Subdomain</td><td>REAL - crt.sh</td></tr><tr><td>12</td><td>Header Email</td><td>REAL - Parser</td></tr><tr><td>13</td><td>File Hash</td><td>REAL - SHA-256</td></tr><tr><td>14</td><td>IP Lengkap</td><td>REAL - 2 API</td></tr><tr><td>15</td><td>Pass dari Username</td><td>REAL - HIBP</td></tr><tr><td>17</td><td>Web Down</td><td>REAL - Ping</td></tr></table>
 <button class="btn" onclick="downloadAll()">DOWNLOAD SEMUA HASIL</button></div>
 </div>
